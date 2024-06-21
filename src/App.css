@@ -1,0 +1,172 @@
+* {
+  font-family: 'Single Day', cursive;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(255, 249, 243); /* Added background color */
+}
+
+.content {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+}
+
+.show {
+  border: 10px #b98b5f solid;
+  padding: 10px;
+  margin: 0 94px;
+  border-radius: 15px;
+}
+
+.awesome {
+  height: 350px;
+}
+
+.textList {
+  padding-top: 30px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.otherText {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  color: #dd8b20;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+  color: #febe6b;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  background: #d6945e;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.art {
+  font-family: "pix M 8pt";
+  font-size: 70px;
+  color: #d0f3cb;
+  display: flex;
+  align-items: center;
+  scale: 1.5 4;
+}
+
+.icon {
+  width: 104px;
+}
+
+.middle {
+  height: 150px;
+  z-index: 1;
+}
+
+.HAT {
+  margin-top: 65px;
+  scale: 2;
+}
+
+.FACE {
+  margin-top: 65px;
+  scale: 3;
+}
+
+.MISC {
+  margin-top: 10px;
+  scale: 1.1;
+  margin-left: 10px;
+}
+
+.empty {
+  width: 30px;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.man-container {
+  position: relative;
+}
+
+.hat {
+  position: absolute;
+  left: 42px;
+  top: 35px;
+}
+
+.face {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.effect {
+  position: absolute;
+  left: 53px;
+  top: 49px;
+  scale: 136%;
+}
+
+.misc {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+@font-face {
+  font-family: "pix M 8pt";
+  src: url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.eot");
+  src: url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b70c3783d9f51a80dae5e4b44d4f3eb1.svg#pix M 8pt")
+      format("svg");
+}
+
+a {
+  text-decoration: none;
+  color: #c77a31;
+}
