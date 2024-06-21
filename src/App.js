@@ -203,9 +203,9 @@ function App() {
         <div> </div>
         <div className="social" style={{ marginTop: "20px"}}>POPO CAT MAKER</div>
         <div style={{ marginTop: "20px" }}>
-          <a href="https://t.me/your_telegram_link" target="_blank" rel="noopener noreferrer">TELEGRAM</a>
+          <a href="https://t.me/fattycat_solana" target="_blank" rel="noopener noreferrer">TELEGRAM</a>
           <span> | </span>
-          <a href="https://twitter.com/your_twitter_link" target="_blank" rel="noopener noreferrer">TWITTER</a>
+          <a href="https://x.com/solana_fattycat" target="_blank" rel="noopener noreferrer">TWITTER</a>
         </div>
       </div>
     </div>
